@@ -48,6 +48,8 @@ func _fixed_process(delta):
 		hp.set_value( hp.get_value() + delta * 5)
 	else:
 		hp.set_value( hp.get_value() - delta * 5)
+		
+	
 	set_pos( Vector2( player.get_pos().x + xOffset, yPos ) )
 
 	pass
